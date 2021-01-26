@@ -1,0 +1,28 @@
+.header{
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.container-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+
+    & > .nav-logo{
+        margin-right: 68px;
+    
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--title-text-color);
+        text-decoration: none;
+    }
+}
+

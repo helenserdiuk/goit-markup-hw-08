@@ -1,0 +1,20 @@
+.footer-logo,
+.nav-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    .header-logo{
+        color: var(--link-text-color);
+    }
+    
+}
+
+.footer-logo {
+    color: var(--second-text-color);
+    line-height: 1.19;
+}

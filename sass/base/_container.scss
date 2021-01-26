@@ -1,0 +1,33 @@
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section{
+    padding: 94px 0;
+
+   & + .section-team{
+        background-color: var(--second-backgraund-color);
+    }
+}
+
+.main-features{
+    padding-top: 94px;
+}
+
+.team-content{
+    padding: 30px 32px;
+    text-align: center;
+}
+
+.footerbox{
+    display: flex;
+    align-items: baseline;
+}
+
+.main-portfolio-content{
+    padding: 94px 0;
+}
