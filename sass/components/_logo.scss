@@ -1,20 +1,19 @@
-.footer-logo,
-.nav-logo{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--title-text-color);
+.logo {
+    font-family: Raleway, sans-serif;
+    color: $titleTextColor;
     letter-spacing: 0.03em;
-    text-decoration: none;
-
-    .header-logo{
-        color: var(--link-text-color);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    // margin-bottom: 20px;
+  
+    @media screen and (min-width: $desktop) {
+      font-size: 26px;
+      line-height: 1.19;
     }
-    
-}
-
-.footer-logo {
-    color: var(--second-text-color);
-    line-height: 1.19;
-}
+  
+    span {
+      color: $accentColor;
+    }
+  }

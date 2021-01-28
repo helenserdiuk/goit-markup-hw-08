@@ -1,8 +1,37 @@
-:root{
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --link-text-color: #2196F3;
-    --second-text-color:#FFFFFF;
-    --second-backgraund-color:#F5F4FA;
-    --fill-color-icons: #AFB1B8;
-}
+
+/* цвет текста  #757575;
+  цвет заголовков  и кнопок#212121
+  акцент+часть лого #2196F3;
+  белый #FFFFFF
+  вторичный цвет фона #2F303A
+ */
+ $primaryTextColor: #757575;
+ $accentColor: #2196f3;
+ $titleTextColor: #212121;
+ $heroTextColor: #ffffff;
+ $bgdButtonColor: #f5f4fa;
+ 
+ $mobile: 480px;
+ $tablet: 768px;
+ $desktop: 1200px;
+ 
+ /* =====Texts===== */
+ 
+ .section p {
+   margin-top: 0;
+ }
+ .section-text {
+   font-size: 14px;
+   line-height: 1.71;
+   margin-bottom: 0;
+ }
+ .section-team-text {
+   font-size: 16px;
+   line-height: 1.18;
+ }
+ .section-portfolio-text {
+   font-size: 16px;
+   line-height: 1.86;
+   margin-bottom: 0;
+   color: $primaryTextColor;
+ }
