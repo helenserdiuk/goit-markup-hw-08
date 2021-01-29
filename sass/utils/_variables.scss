@@ -1,6 +1,6 @@
 
 /* цвет текста  #757575;
-  цвет заголовков  и кнопок#212121
+  цвет заголовков и кнопок#212121
   акцент+часть лого #2196F3;
   белый #FFFFFF
   вторичный цвет фона #2F303A
@@ -21,9 +21,13 @@
    margin-top: 0;
  }
  .section-text {
+  @media screen and (max-width:$tablet){
+    margin-bottom: 30px;
+   }
    font-size: 14px;
    line-height: 1.71;
    margin-bottom: 0;
+
  }
  .section-team-text {
    font-size: 16px;

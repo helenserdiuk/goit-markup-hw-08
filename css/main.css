@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* цвет текста  #757575;
-  цвет заголовков  и кнопок#212121
+  цвет заголовков и кнопок#212121
   акцент+часть лого #2196F3;
   белый #FFFFFF
   вторичный цвет фона #2F303A
@@ -14,6 +14,12 @@
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-text {
+    margin-bottom: 30px;
+  }
 }
 
 .section-team-text {
@@ -162,7 +168,7 @@ ul {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .title {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background-images@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background-img@2x.jpg");
   }
 }
 
@@ -745,18 +751,17 @@ ul {
 }
 
 .portfolio-section {
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 @media screen and (min-width: 1200px) {
   .portfolio-section {
-    padding-top: 94px;
+    padding: 94px 0;
   }
 }
 
 .portfolio-list {
   margin: 0 auto;
-  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -775,7 +780,6 @@ ul {
     flex-wrap: wrap;
     margin-right: -30px;
     margin-top: -30px;
-    padding-bottom: 94px;
   }
 }
 
@@ -863,7 +867,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .portfolio-button {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1157,7 +1161,6 @@ ul {
   display: flex;
   flex-direction: column;
   margin-right: 12px;
-  align-items: center;
 }
 
 .form-label {
